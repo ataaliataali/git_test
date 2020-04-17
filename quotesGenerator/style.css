@@ -1,0 +1,53 @@
+body{
+   
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: karumbi;
+    font-size: 200%;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container{
+    text-align: center;
+    flex: 0 0 50%;
+    background: gray;
+}
+
+
+#quoteBtn{
+    
+    font-family: karumbi;
+    font-size: 100%;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: yellow;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    
+}
+
+#quoteBtn:hover{
+    color: yellow;
+    background: rgba(0,0,0,0.9);
+    outline: none;
+}
+
+blockquote{
+    background: #ececec;
+    border-left: 10px solid black;
+    border-right: 3px solid black;
+    border-radius: 0 20px 20px 0;
+    margin: 1.5rem;
+    padding: 0.5rem;
+}
+    
+    
+    
+}
+    
